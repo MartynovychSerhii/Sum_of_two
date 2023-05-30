@@ -35,7 +35,7 @@ def sum_of_two(li, number):
             return print("Only one valid answer must exists. Your input has at least two possible solutions")
 
         elif len(new_list) == 0:
-            return print("There is no no match")
+            return print("There is no match")
         else:
             return print(new_list[0])
 
