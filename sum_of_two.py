@@ -5,7 +5,7 @@ length = len(Numbers)
 
 def constraints(input_list, num):
     for i in range(length):
-        x = isinstance(Numbers[i - 1], int)
+        x = isinstance(Numbers[i], int)
         if not x:
             return print("Please enter an integer in your list")
 
