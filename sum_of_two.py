@@ -1,4 +1,4 @@
-Numbers = [3, 3, 6 ]
+Numbers = [3, 3]
 target = 6
 length = len(Numbers)
 
@@ -32,7 +32,7 @@ def sum_of_two(li, number):
                 if Numbers[i] + Numbers[j] == number:
                     new_list.append([i, j])
         if len(new_list) > 1:
-            return print("Only one valid answer exists. Your input has at least two possible solutions")
+            return print("Only one valid answer must exists. Your input has at least two possible solutions")
 
         elif len(new_list) == 0:
             return print("There is no no match")
